@@ -75,7 +75,7 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'Premier League': premierLeagueIcon,
     'La Liga': laligaIcon,
     'Ligue 1': ligue1Icon,
-    'Serie A': serieAIcon,
+    
     'Bundesliga 2': bundesliga2Icon,
     '3rd Liga': liga3Icon,
     'Bundesliga': bundesligaIcon,
@@ -83,7 +83,14 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'Europa League': europaLeagueIcon,
     'Eredivisie': eredivisieIcon,
     'Port Premier': portPremieraIcon,
+    
+    // italy
+    'Serie A': serieAIcon,
     'Serie B': serieBIcon,
+    'Serie C, Group A': serieC,
+    'Serie C, Group B': serieC,
+    'Serie C, Group C': serieC,
+
     'Ligue 2': ligue2Icon,
     'UEFA Conference League': uefaconference,
     'League One': leagueOne,
@@ -92,7 +99,4 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'Emirates FA Cup': emirates,
     'EFL': efl,
     'National League': nationalLeague,
-    'Serie C, Group A': serieC,
-    'Serie C, Group B': serieC,
-    'Serie C, Group C': serieC
 } as const;
