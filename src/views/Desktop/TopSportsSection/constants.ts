@@ -1,5 +1,5 @@
+/************FOOTBALL**********/
 /**      ENGLAND       **/
-/**football */
 import premierLeagueIcon from '@/assets/tournaments/Football/England/premierleague.png';
 import championship from '@/assets/tournaments/Football/England/efl-championship.png';
 import leagueOne from '@/assets/tournaments/Football/England/efl-league-one.png';
@@ -7,10 +7,9 @@ import leagueTwo from '@/assets/tournaments/Football/England/efl-league-two.png'
 import efl from '@/assets/tournaments/Football/England/EFL.png';
 import nationalLeague from '@/assets/tournaments/Football/England/National_League_logo.png';
 import emirates from '@/assets/tournaments/Football/England/emirates-fa-cup.png';
-/**basketball */
+
 
 /**      FRANCE       **/
-/**football */
 import ligue1Icon from '@/assets/tournaments/Football/France/ligue1.png';
 import ligue2Icon from '@/assets/tournaments/Football/France/ligue2.png';
 import coupeDeFranceWomen from '@/assets/tournaments/Football/France/coupeDeFranceWomen.png';
@@ -18,54 +17,45 @@ import championnatNationalU19 from '@/assets/tournaments/Football/France/champio
 import national from '@/assets/tournaments/Football/France/National.png';
 
 /**      ITALY        **/
-/**football */
 import serieAIcon from '@/assets/tournaments/Football/Italy/serieA.png';
 import serieBIcon from '@/assets/tournaments/Football/Italy/serieB.png';
 import serieC from '@/assets/tournaments/Football/Italy/serieC.png';
 import coppaItalia from '@/assets/tournaments/Football/Italy/coppaItalia.png';
 import seriaAWomen from '@/assets/tournaments/Football/Italy/serieAwomen.png';
-/**basketball */
-
 
 /**      Germany      **/
-/**football*/
 import bundesligaIcon from '@/assets/tournaments/Football/Germany/bundesliga.png';
 import liga3Icon from '@/assets/tournaments/Football/Germany/liga-3.png';
 import bundesliga2Icon from '@/assets/tournaments/Football/Germany/bundesliga2.png';
 import dfbPokal from '@/assets/tournaments/Football/Germany/DFB-Pokal.png';
-/**basketball */
 
 
 /**      Spain        **/
-/**football*/
 import copaDelRey from '@/assets/tournaments/Football/Spain/copaDelRey.png';
 import laLiga from '@/assets/tournaments/Football/Spain/laLiga.png';
 import laLiga2 from '@/assets/tournaments/Football/Spain/laLiga2.png';
 import primeraREEF from '@/assets/tournaments/Football/Spain/primeraREEF.png';
 import primeraWomen from '@/assets/tournaments/Football/Spain/primeraWomen.png';
 import segundaDivision from '@/assets/tournaments/Football/Spain/segundaDivision.png';
-/**basketball */
 
 /**      Netherland       **/
-/**football*/
 import eredivisieIcon from '@/assets/tournaments/Football/Netherlands/ereDivisie.png';
 import tweededivisieIcon from '@/assets/tournaments/Football/Netherlands/tweedeDivisie.png';
 import erstedivisieIcon from '@/assets/tournaments/Football/Netherlands/ersteDivisie.png';
 /**basketball */
 
 /**      Portugal       **/
-/**football*/
 import portPremieraIcon from '@/assets/tournaments/Football/Portugal/Portpremiera.png';
 import Liga3 from '@/assets/tournaments/Football/Portugal/Liga3.png';
 import segundaLiga from '@/assets/tournaments/Football/Portugal/portugalLiga2.png';
-/**basketball */
 
 /**      International       **/
-/**football*/
 import championsLeagueIcon from '@/assets/tournaments/Football/International/championsLeague.png';
 import copaLibertadores from '@/assets/tournaments/Football/International/copaLibertadores.png';
 import europaLeagueIcon from '@/assets/tournaments/Football/International/europa.png';
 import uefaconference from '@/assets/tournaments/Football/International/uefa.png';
+
+/********** BASKETBALL*******/
 
 export const SPORT_ICONS: Record<string, string> = {
     'soccer': '⚽',
