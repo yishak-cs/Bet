@@ -54,7 +54,8 @@ import championsLeagueIcon from '@/assets/tournaments/Football/International/cha
 import copaLibertadores from '@/assets/tournaments/Football/International/copaLibertadores.png';
 import europaLeagueIcon from '@/assets/tournaments/Football/International/europa.png';
 import uefaconference from '@/assets/tournaments/Football/International/uefa.png';
-
+import copaSudamericana from '@/assets/tournaments/Football/International/copaSudamericana.png';
+import recopaSudamericana from '@/assets/tournaments/Football/International/recopaSudamericana.png';
 /********** BASKETBALL*******/
 
 export const SPORT_ICONS: Record<string, string> = {
@@ -112,6 +113,8 @@ export type TournamentName =
     | 'Europa League'
     | 'UEFA Conference League'
     | 'Copa Libertadores'
+    | 'Copa Sudamericana'
+    | 'Recopa Sudamericana'
 
     | 'Ligue 1'
     | 'Ligue 2'
@@ -159,7 +162,8 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'Europa League': europaLeagueIcon,
     'UEFA Conference League': uefaconference,
     'Copa Libertadores': copaLibertadores,
-    
+    'Copa Sudamericana': copaSudamericana,
+    'Recopa Sudamericana': recopaSudamericana,    
 
     // italy football
     'Serie A': serieAIcon,
