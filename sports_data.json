@@ -1,0 +1,55 @@
+{
+  "🏈": {
+    "USA": [
+      "NFL"
+    ]
+  },
+  "⚽": {
+    "England": [
+      "Premier League",
+      "National League",
+      "Championship",
+      "FA Cup",
+      "League One",
+      "League Two",
+      "National League Cup",
+      "EFL Cup"
+    ]
+  },
+  "🏀": {
+    "International": [
+      "Euroleague",
+      "Champions League",
+      "Eurocup",
+      "Europe Cup",
+      "Euroleague Women",
+      "United League",
+      "European North Basketball League",
+      "Estonian-Latvian League"
+    ]
+  },
+  "🎾": {
+    "Challenger": [
+      "ATP Challenger Koblenz, Germany Men Singles",
+      "ATP Challenger Koblenz, Germany Men Double",
+      "ATP Challenger Cleveland, USA Men Singles",
+      "ATP Challenger Piracicaba, Brazil Men Singles",
+      "ATP Challenger Brisbane, Australia Men Singles",
+      "ATP Challenger Brisbane, Australia Men Doubles",
+      "ATP Challenger Cleveland, USA Men Doubles",
+      "ATP Challenger Piracicaba, Brazil Men Doubles"
+    ]
+  },
+  "🥋": {
+    "UFC": [
+      "UFC 312: Du Plessis vs. Strickland 2",
+      "UFC Fight Night: Adesanya vs. Imavov",
+      "UFC Fight Night: Cejudo vs. Song",
+      "UFC 313: Pereira vs. Ankalaev",
+      "UFC Fight Night: Cejudo vs. Song",
+      "UFC Fight Night: Edwards vs. Della Maddalena",
+      "UFC Fight Night: Royval vs. Kape",
+      "UFC Fight Night: Edwards vs. Della Maddalena"
+    ]
+  }
+}
