@@ -97,7 +97,14 @@ import ligaACB from 'assets/tournaments/Basketball/Spain/ligaACB.png';
 import tbsl from 'assets/tournaments/Basketball/Turkey/TBSL.png';
 import lig1 from 'assets/tournaments/Basketball/Turkey/1.lig.png';
 
-/********** Ground Tennis */
+/********** american football ******/
+import nfl from 'assets/tournaments/NFL/USA/NFL.png';
+
+/********** Ground Tennis    ******/
+
+import challenger from 'assets/tournaments/GroundTennis/Challenger/challengerTour.png';
+import atp from 'assets/tournaments/GroundTennis/ATP/atp.png';
+import wta from 'assets/tournaments/GroundTennis/WTA/wta.png';
 
 export const SPORT_ICONS: Record<string, string> = {
     'soccer': '⚽',
@@ -200,6 +207,31 @@ export type TournamentName =
     // Turkey
     | 'TBSL'
     | '1. Lig'
+
+    /**     american football     */
+    //usa
+    | 'NFL'
+
+    /**     Ground Tennis        */
+    // ATP challenger
+    | 'ATP Challenger Koblenz, Germany Men Singles'
+    | 'ATP Challenger Koblenz, Germany Men Double'
+    | 'ATP Challenger Cleveland, USA Men Singles'
+    | 'ATP Challenger Piracicaba, Brazil Men Singles'
+    | 'ATP Challenger Brisbane, Australia Men Doubles'
+    | 'ATP Challenger Cleveland, USA Men Doubles'
+    | 'ATP Challenger Brisbane, Australia Men Singles'
+    | 'ATP Challenger Piracicaba, Brazil Men Doubles'
+    // ATP
+    | 'ATP Montpellier, France Men Singles'
+    | 'ATP Montpellier, France Men Double'
+    //WTA
+    | 'WTA Linz, Austria Women Singles'
+    | 'WTA Singapore, Singapore Women Singles'
+    | 'WTA Singapore, Singapore Women Doubles'
+    | 'WTA Linz, Austria Women Doubles'
+
+    /**     Table Tennis        */
     ;
 
 export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
@@ -291,4 +323,28 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     //turkey
     'TBSL': tbsl,
     '1. Lig': lig1,
+
+    /******* American football **********/
+    'NFL': nfl,
+
+    /********Ground tennis *********/
+    //challenger
+    'ATP Challenger Koblenz, Germany Men Singles': challenger,
+    'ATP Challenger Koblenz, Germany Men Double': challenger,
+    'ATP Challenger Cleveland, USA Men Singles': challenger,
+    'ATP Challenger Piracicaba, Brazil Men Singles': challenger,
+    'ATP Challenger Brisbane, Australia Men Doubles': challenger,
+    'ATP Challenger Cleveland, USA Men Doubles': challenger,
+    'ATP Challenger Brisbane, Australia Men Singles': challenger,
+    'ATP Challenger Piracicaba, Brazil Men Doubles': challenger,
+    // ATP
+    'ATP Montpellier, France Men Singles': atp,
+    'ATP Montpellier, France Men Double': atp,
+    //wtp
+    'WTA Linz, Austria Women Singles': wta,
+    'WTA Singapore, Singapore Women Singles': wta,
+    'WTA Singapore, Singapore Women Doubles': wta,
+    'WTA Linz, Austria Women Doubles': wta,
+
+    /********* Table tennis */
 } as const;
