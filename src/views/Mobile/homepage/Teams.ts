@@ -60,8 +60,49 @@ import udinese from '@/assets/tournaments/Football/Italy/SerieA/Udinese.png';
 import venezia from '@/assets/tournaments/Football/Italy/SerieA/Venezia.png';
 import verona from '@/assets/tournaments/Football/Italy/SerieA/Verona.png';
 
+/** Bundesliga */
+import augsburg from '@/assets/tournaments/Football/Germany/BundesligaTeams/Augsburg.png';
+import bayern from '@/assets/tournaments/Football/Germany/BundesligaTeams/Bayern.png';
+import bremen from '@/assets/tournaments/Football/Germany/BundesligaTeams/Bremen.png';
+import dortmund from '@/assets/tournaments/Football/Germany/BundesligaTeams/Dortmund.png';
+import fcStPauli from '@/assets/tournaments/Football/Germany/BundesligaTeams/FC_St.Pauli.png';
+import fcUnionBerlin from '@/assets/tournaments/Football/Germany/BundesligaTeams/FC_Union_Berlin.png';
+import frankfurt from '@/assets/tournaments/Football/Germany/BundesligaTeams/Frankfurt.png';
+import freiburg from '@/assets/tournaments/Football/Germany/BundesligaTeams/Freiburg.png';
+import heidenheim1846 from '@/assets/tournaments/Football/Germany/BundesligaTeams/Heidenheim_1846.png';
+import hoffenheim from '@/assets/tournaments/Football/Germany/BundesligaTeams/Hoffenheim.png';
+import holsteinKiel from '@/assets/tournaments/Football/Germany/BundesligaTeams/Holstein_kiel.png';
+import leverkusen from '@/assets/tournaments/Football/Germany/BundesligaTeams/Leverkusen.png';
+import mainz from '@/assets/tournaments/Football/Germany/BundesligaTeams/Mainz.png';
+import moenchengladbach from '@/assets/tournaments/Football/Germany/BundesligaTeams/Moenchengladbach.png';
+import rbLeipzig from '@/assets/tournaments/Football/Germany/BundesligaTeams/RB_LeipZig.png';
+import stuttgart from '@/assets/tournaments/Football/Germany/BundesligaTeams/Stuttgart.png';
+import vflBochum1848 from '@/assets/tournaments/Football/Germany/BundesligaTeams/VFL_Bochum_1848.png';
+import vflWolfsburg from '@/assets/tournaments/Football/Germany/BundesligaTeams/VFL_Wolfsburg.png';
 
-export type TeamName = 
+/** LaLiga */
+import alaves from '@/assets/tournaments/Football/Spain/LaLigaTeams/Alaves.png';
+import athletic from '@/assets/tournaments/Football/Spain/LaLigaTeams/athletic.png';
+import athleticoMadrid from '@/assets/tournaments/Football/Spain/LaLigaTeams/Athletico_Madrid.png';
+import barcelona from '@/assets/tournaments/Football/Spain/LaLigaTeams/barcelona.png';
+import celta from '@/assets/tournaments/Football/Spain/LaLigaTeams/celta.png';
+import mallorca from '@/assets/tournaments/Football/Spain/LaLigaTeams/RCD_Mallorca.png';
+import espanyol from '@/assets/tournaments/Football/Spain/LaLigaTeams/espanyol.png';
+import getafe from '@/assets/tournaments/Football/Spain/LaLigaTeams/Getafe.png';
+import girona from '@/assets/tournaments/Football/Spain/LaLigaTeams/Girona.png';
+import lasPalmas from '@/assets/tournaments/Football/Spain/LaLigaTeams/las-palmas.png';
+import leganes from '@/assets/tournaments/Football/Spain/LaLigaTeams/leganes.png';
+import osasuna from '@/assets/tournaments/Football/Spain/LaLigaTeams/osasuna.png';
+import realMadrid from '@/assets/tournaments/Football/Spain/LaLigaTeams/real-madrid.png';
+import realSociedad from '@/assets/tournaments/Football/Spain/LaLigaTeams/real-sociedad.png';
+import realBetis from '@/assets/tournaments/Football/Spain/LaLigaTeams/Real_Betis.png';
+import realValladolid from '@/assets/tournaments/Football/Spain/LaLigaTeams/Real_Valladolid.png';
+import sevilla from '@/assets/tournaments/Football/Spain/LaLigaTeams/sevilla.png';
+import valencia from '@/assets/tournaments/Football/Spain/LaLigaTeams/valencia.png';
+import vallencano from '@/assets/tournaments/Football/Spain/LaLigaTeams/Vallencano.png';
+import villarreal from '@/assets/tournaments/Football/Spain/LaLigaTeams/villarreal.png';
+
+export type TeamName =
     //premier league
     'AFC Bournemouth' |
     'Arsenal FC' |
@@ -72,7 +113,7 @@ export type TeamName =
     'Crystal Palace FC' |
     'Everton FC' |
     'Leicester City FC' |
-    'Ipswich Town'|
+    'Ipswich Town' |
     'Liverpool FC' |
     'Manchester City' |
     'Manchester United FC' |
@@ -121,7 +162,47 @@ export type TeamName =
     'Torino FC' |
     'Udinese Calcio' |
     'Venezia' |
-    'Hellas Verona';
+    'Hellas Verona' |
+    // Bundesliga
+    'FC Augsburg' |
+    'Bayern Munich' |
+    'Werder Bremen' |
+    'Borussia Dortmund' |
+    'FC St. Pauli' |
+    'Union Berlin' |
+    'Eintracht Frankfurt' |
+    'SC Freiburg' |
+    '1.FC Heidenheim 1846' |
+    'TSG Hoffenheim' |
+    'Holstein Kiel' |
+    'Bayer Leverkusen' |
+    'FSV Mainz' |
+    'Borussia Moenchengladbach' |
+    'RB Leipzig' |
+    'VfB Stuttgart' |
+    'VfL Bochum' |
+    'VfL Wolfsburg' |
+    // LaLiga
+    'Deportivo Alaves' |
+    'Athletic Bilbao' |
+    'Athletico Madrid' |
+    'FC Barcelona' |
+    'RC Celta de Vigo' |
+    'RCD Mallorca' |
+    'RCD Espanyol Barcelona' |
+    'Getafe CF' |
+    'Girona FC' |
+    'Las Palmas CF' |
+    'CD Leganes' |
+    'CA Osasuna' |
+    'Real Madrid' |
+    'Real Sociedad' |
+    'Real Betis' |
+    'Real Valladolid' |
+    'Sevilla FC' |
+    'Valencia CF' |
+    'Rayo Vallencano' |
+    'Villarreal CF';
 
 export const TEAM_ICONS: Record<TeamName, string> = {
     // Premier League
@@ -185,5 +266,49 @@ export const TEAM_ICONS: Record<TeamName, string> = {
     'Torino FC': torino,
     'Udinese Calcio': udinese,
     'Venezia': venezia,
-    'Hellas Verona': verona
+    'Hellas Verona': verona,
+
+    // Bundesliga
+    'FC Augsburg': augsburg,
+    'Bayern Munich': bayern,
+    'Werder Bremen': bremen,
+    'Borussia Dortmund': dortmund,
+    'FC St. Pauli': fcStPauli,
+    'Union Berlin': fcUnionBerlin,
+    'Eintracht Frankfurt': frankfurt,
+    'SC Freiburg': freiburg,
+    '1.FC Heidenheim 1846': heidenheim1846,
+    'TSG Hoffenheim': hoffenheim,
+    'Holstein Kiel': holsteinKiel,
+    'Bayer Leverkusen': leverkusen,
+    'FSV Mainz': mainz,
+    'Borussia Moenchengladbach': moenchengladbach,
+    'RB Leipzig': rbLeipzig,
+    'VfB Stuttgart': stuttgart,
+    'VfL Bochum': vflBochum1848,
+    'VfL Wolfsburg': vflWolfsburg,
+
+    // LaLiga
+    'Deportivo Alaves': alaves,
+    'Athletic Bilbao': athletic,
+    'Athletico Madrid': athleticoMadrid,
+    'FC Barcelona': barcelona,
+    'RC Celta de Vigo': celta,
+    'RCD Mallorca': mallorca,
+    'RCD Espanyol Barcelona': espanyol,
+    'Getafe CF': getafe,
+    'Girona FC': girona,
+    'Las Palmas CF': lasPalmas,
+    'CD Leganes': leganes,
+    'CA Osasuna': osasuna,
+    'Real Madrid': realMadrid,
+    'Real Sociedad': realSociedad,
+    'Real Betis': realBetis,
+    'Real Valladolid': realValladolid,
+    'Sevilla FC': sevilla,
+    'Valencia CF': valencia,
+    'Rayo Vallencano': vallencano,
+    'Villarreal CF': villarreal
 } as const;
+
+
