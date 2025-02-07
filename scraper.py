@@ -206,7 +206,7 @@ class SportsScraper:
             json.dump(self.data, f, ensure_ascii=False, indent=2)
 
 def main():
-    url = "https://main.d34afxxdpxv7q4.amplifyapp.com/"
+    url = "https://gobet.et/"
     scraper = SportsScraper(url)
     
     try:

@@ -21,6 +21,7 @@ import serieAIcon from '@/assets/tournaments/Football/Italy/serieA.png';
 import serieBIcon from '@/assets/tournaments/Football/Italy/serieB.png';
 import serieC from '@/assets/tournaments/Football/Italy/serieC.png';
 import coppaItalia from '@/assets/tournaments/Football/Italy/coppaItalia.png';
+import CampionatoPrimavera1 from '@/assets/tournaments/Football/Italy/CampionatoPrimavera1.png';
 import seriaAWomen from '@/assets/tournaments/Football/Italy/serieAwomen.png';
 
 /**      Germany      **/
@@ -48,6 +49,15 @@ import erstedivisieIcon from '@/assets/tournaments/Football/Netherlands/ersteDiv
 import portPremieraIcon from '@/assets/tournaments/Football/Portugal/Portpremiera.png';
 import Liga3 from '@/assets/tournaments/Football/Portugal/Liga3.png';
 import segundaLiga from '@/assets/tournaments/Football/Portugal/portugalLiga2.png';
+import CampeonatoNacionalWomen from '@/assets/tournaments/Football/Portugal/CampeonatoNacionalWomen.png';
+import U23Championship from '@/assets/tournaments/Football/Portugal/U23Championship.png';
+import PrimeiraLiga from '@/assets/tournaments/Football/Portugal/PrimeiraLiga.png';
+
+/**      Belgium       **/
+import FirstDivisionA from '@/assets/tournaments/Football/Belgium/FirstDivisionA.png';
+import FirstDivisionB from '@/assets/tournaments/Football/Belgium/FirstDivisionB.png';
+import SuperLeagueWomen from '@/assets/tournaments/Football/Belgium/SuperLeagueWomen.png';
+import U21ProLeague from '@/assets/tournaments/Football/Belgium/U21proLeague.png';
 
 /**      International       **/
 import championsLeagueIcon from '@/assets/tournaments/Football/International/championsLeague.png';
@@ -56,55 +66,57 @@ import europaLeagueIcon from '@/assets/tournaments/Football/International/europa
 import uefaconference from '@/assets/tournaments/Football/International/uefa.png';
 import copaSudamericana from '@/assets/tournaments/Football/International/copaSudamericana.png';
 import recopaSudamericana from '@/assets/tournaments/Football/International/recopaSudamericana.png';
+import atlanticCup from '@/assets/tournaments/Football/International/AtlanticCup.png';
 
 
 /********** BASKETBALL*******/
 /** international **/
-import BNXT from 'assets/tournaments/Basketball/International/BNXTLeague.png';
-import championsLeague from 'assets/tournaments/Basketball/International/championsLeague.png';
-import euroLeague from 'assets/tournaments/Basketball/International/euroLeague.png';
-import euroCup from 'assets/tournaments/Basketball/International/euroCup.png';
-import united from 'assets/tournaments/Basketball/International/unitedLeague.png';
-import euroWomen from 'assets/tournaments/Basketball/International/euroLeagueWomen.png';
-import europeCup from 'assets/tournaments/Basketball/International/europeCup.png';
-import estoLat from 'assets/tournaments/Basketball/International/estonianLatvian.png';
-import europeNorth from 'assets/tournaments/Basketball/International/ENBL.png';
+import bnxt from '@/assets/tournaments/Basketball/International/BNXTLeague.png';
+import championsLeague from '@/assets/tournaments/Basketball/International/championsLeague.png';
+import euroLeague from '@/assets/tournaments/Basketball/International/euroLeague.png';
+import euroCup from '@/assets/tournaments/Basketball/International/euroCup.png';
+import united from '@/assets/tournaments/Basketball/International/unitedLeague.png';
+import euroWomen from '@/assets/tournaments/Basketball/International/euroLeagueWomen.png';
+import europeCup from '@/assets/tournaments/Basketball/International/europeCup.png';
+import estoLat from '@/assets/tournaments/Basketball/International/estonianLatvian.png';
+import europeNorth from '@/assets/tournaments/Basketball/International/ENBL.png';
+import LigaABA from '@/assets/tournaments/Basketball/International/Liga ABA.png';
 
 /**     USA     **/
-import nba from 'assets/tournaments/Basketball/USA/NBA.png';
-import unrivaled from 'assets/tournaments/Basketball/USA/unrivaled.png';
+import nba from '@/assets/tournaments/Basketball/USA/NBA.png';
+import unrivaled from '@/assets/tournaments/Basketball/USA/unrivaled.png';
 
 /**     france   **/
-import lbf from 'assets/tournaments/Basketball/France/LBFWomen.png';
-import proAFrance from 'assets/tournaments/Basketball/France/proA.png';
-import proB from 'assets/tournaments/Basketball/France/proB.png';
+import lbf from '@/assets/tournaments/Basketball/France/LBFWomen.png';
+import proAFrance from '@/assets/tournaments/Basketball/France/proA.png';
+import proB from '@/assets/tournaments/Basketball/France/proB.png';
 
 /**     Germany  **/
-import bbl from 'assets/tournaments/Basketball/Germany/BBL.png';
-import proAGerman from 'assets/tournaments/Basketball/Germany/proA.png';
+import bbl from '@/assets/tournaments/Basketball/Germany/BBL.png';
+import proAGerman from '@/assets/tournaments/Basketball/Germany/proA.png';
 
 /**      Greece  **/
-import a1 from 'assets/tournaments/Basketball/Greece/A1.png';
+import a1 from '@/assets/tournaments/Basketball/Greece/A1.png';
 
 /**      italy  **/
-import serieA from 'assets/tournaments/Basketball/Italy/serieA.png';
-import serieA2 from 'assets/tournaments/Basketball/Italy/serieA2.png';
+import serieA from '@/assets/tournaments/Basketball/Italy/serieA.png';
+import serieA2 from '@/assets/tournaments/Basketball/Italy/serieA2.png';
 
 /**      spain  **/
-import ligaACB from 'assets/tournaments/Basketball/Spain/ligaACB.png';
+import ligaACB from '@/assets/tournaments/Basketball/Spain/ligaACB.png';
 
 /**Turkey */
-import tbsl from 'assets/tournaments/Basketball/Turkey/TBSL.png';
-import lig1 from 'assets/tournaments/Basketball/Turkey/1.lig.png';
+import tbsl from '@/assets/tournaments/Basketball/Turkey/TBSL.png';
+import lig1 from '@/assets/tournaments/Basketball/Turkey/1.lig.png';
 
 /********** american football ******/
-import nfl from 'assets/tournaments/NFL/USA/NFL.png';
+import nfl from '@/assets/tournaments/NFL/USA/NFL.png';
 
 /********** Ground Tennis    ******/
 
-import challenger from 'assets/tournaments/GroundTennis/Challenger/challengerTour.png';
-import atp from 'assets/tournaments/GroundTennis/ATP/atp.png';
-import wta from 'assets/tournaments/GroundTennis/WTA/wta.png';
+import challenger from '@/assets/tournaments/GroundTennis/Challenger/challengerTour.png';
+import atp from '@/assets/tournaments/GroundTennis/ATP/atp.png';
+import wta from '@/assets/tournaments/GroundTennis/WTA/wta.png';
 
 export const SPORT_ICONS: Record<string, string> = {
     'soccer': '⚽',
@@ -128,17 +140,17 @@ export type TournamentName =
     /**         forball     */
     // german
     'Bundesliga'
-    | 'Bundesliga 2'
+    | '2nd Bundesliga'
     | '3rd Liga'
     | 'DFB Pokal'
     // england
-    | 'National League'
     | 'EFL'
+    | 'Premier League'
+    | 'National League'
+    | 'Championship'
+    | 'FA Cup'
     | 'League One'
     | 'League Two'
-    | 'Championship'
-    | 'Premier League'
-    | 'Emirates FA Cup'
     //itally
     | 'Serie A'
     | 'Serie B'
@@ -146,13 +158,14 @@ export type TournamentName =
     | 'Serie C, Group B'
     | 'Serie C, Group C'
     | 'Coppa Italia'
+    | 'Campionato Primavera 1'
     | 'Serie A Women'
     //spain
     | 'LaLiga'
     | 'LaLiga 2'
     | 'Copa Del Rey'
-    | 'Premiera Division Women'
-    | 'Premiera Division REEF'
+    | 'Primera Division Women'
+    | 'Primera Division RFEF'
     | 'Second Division B'
     //netherland
     | 'Eredivisie'
@@ -160,11 +173,12 @@ export type TournamentName =
     | 'Eerste divisie'
     // international
     | 'UEFA Champions League'
-    | 'Europa League'
-    | 'UEFA Conference League'
+    | 'UEFA Europa League'
+    | 'UEFA Europa Conference League'
     | 'Copa Libertadores'
     | 'Copa Sudamericana'
     | 'Recopa Sudamericana'
+    | 'Atlantic Cup'
     //france
     | 'Ligue 1'
     | 'Ligue 2'
@@ -175,10 +189,19 @@ export type TournamentName =
     | 'Port Premier'
     | 'Segunda Liga'
     | 'Liga Portugal 3'
+    | 'Primeira Liga'
+    | 'Campeonato Nacional, Women'
+    | 'U23 Championship'
+    // belgium
+    | 'First Division A'
+    | 'First Division B'
+    | 'Super League Women'
+    | 'U21 Pro League'
 
     /**     basketball      */
     //international
-    | 'BNXTLeague'
+    | 'BNXT League'
+    | 'Liga ABA'
     | 'Eurocup'
     | 'Euroleague'
     | 'Euroleague Women'
@@ -216,6 +239,7 @@ export type TournamentName =
     // ATP challenger
     | 'ATP Challenger Koblenz, Germany Men Singles'
     | 'ATP Challenger Koblenz, Germany Men Double'
+    | 'ATP Challenger Lille, France Men Singles'
     | 'ATP Challenger Cleveland, USA Men Singles'
     | 'ATP Challenger Piracicaba, Brazil Men Singles'
     | 'ATP Challenger Brisbane, Australia Men Doubles'
@@ -240,7 +264,7 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'League One': leagueOne,
     'League Two': leagueTwo,
     'Championship': championship,
-    'Emirates FA Cup': emirates,
+    'FA Cup': emirates,
     'EFL': efl,
     'National League': nationalLeague,
 
@@ -248,8 +272,8 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'Copa Del Rey': copaDelRey,
     'LaLiga': laLiga,
     'LaLiga 2': laLiga2,
-    'Premiera Division REEF': primeraREEF,
-    'Premiera Division Women': primeraWomen,
+    'Primera Division RFEF': primeraREEF,
+    'Primera Division Women': primeraWomen,
     'Second Division B': segundaDivision,
 
     // france football
@@ -261,17 +285,18 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
 
     // germany football
     'Bundesliga': bundesligaIcon,
-    'Bundesliga 2': bundesliga2Icon,
+    '2nd Bundesliga': bundesliga2Icon,
     'DFB Pokal': dfbPokal,
     '3rd Liga': liga3Icon,
 
     // interanational
     'UEFA Champions League': championsLeagueIcon,
-    'Europa League': europaLeagueIcon,
-    'UEFA Conference League': uefaconference,
+    'UEFA Europa League': europaLeagueIcon,
+    'UEFA Europa Conference League': uefaconference,
     'Copa Libertadores': copaLibertadores,
     'Copa Sudamericana': copaSudamericana,
     'Recopa Sudamericana': recopaSudamericana,
+    'Atlantic Cup': atlanticCup,
 
     // italy football
     'Serie A': serieAIcon,
@@ -280,6 +305,7 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'Serie C, Group B': serieC,
     'Serie C, Group C': serieC,
     'Coppa Italia': coppaItalia,
+    'Campionato Primavera 1': CampionatoPrimavera1,
     'Serie A Women': seriaAWomen,
 
     //Netherland
@@ -288,17 +314,27 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'Eerste divisie': erstedivisieIcon,
 
     //portugal
+    'Primeira Liga': PrimeiraLiga,
+    'Campeonato Nacional, Women': CampeonatoNacionalWomen,
+    'U23 Championship': U23Championship,
     'Port Premier': portPremieraIcon,
     'Segunda Liga': segundaLiga,
     'Liga Portugal 3': Liga3,
 
+     // belgium
+     'First Division A': FirstDivisionA,
+     'First Division B': FirstDivisionB,
+     'Super League Women': SuperLeagueWomen,
+     'U21 Pro League': U21ProLeague,
+
     /******* BaksetBall **********/
     //international
-    'BNXTLeague': BNXT,
+    'BNXT League': bnxt,
     'Champions League': championsLeague,
     'Eurocup': euroCup,
     'Euroleague': euroLeague,
     'United League': united,
+    'Liga ABA': LigaABA,
     'Euroleague Women': euroWomen,
     'European Northern Basketball League': europeNorth,
     'Europe Cup': europeCup,
@@ -335,6 +371,7 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'ATP Challenger Piracicaba, Brazil Men Singles': challenger,
     'ATP Challenger Brisbane, Australia Men Doubles': challenger,
     'ATP Challenger Cleveland, USA Men Doubles': challenger,
+    'ATP Challenger Lille, France Men Singles': challenger,
     'ATP Challenger Brisbane, Australia Men Singles': challenger,
     'ATP Challenger Piracicaba, Brazil Men Doubles': challenger,
     // ATP
