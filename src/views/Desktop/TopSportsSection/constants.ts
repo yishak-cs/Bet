@@ -80,6 +80,7 @@ import atlanticCup from '@/assets/tournaments/Football/International/AtlanticCup
 /** international **/
 import bnxt from '@/assets/tournaments/Basketball/International/BNXTLeague.png';
 import championsLeague from '@/assets/tournaments/Basketball/International/championsLeague.png';
+import ChampionsLeagueAmericas from '@/assets/tournaments/Basketball/International/ChampionsLeagueAmericas.png';
 import euroLeague from '@/assets/tournaments/Basketball/International/euroLeague.png';
 import euroCup from '@/assets/tournaments/Basketball/International/euroCup.png';
 import united from '@/assets/tournaments/Basketball/International/unitedLeague.png';
@@ -218,6 +219,7 @@ export type TournamentName =
     | 'BNXT League'
     | 'Liga ABA'
     | 'Eurocup'
+    |'Champions League Americas'
     | 'Euroleague'
     | 'Euroleague Women'
     | 'United League'
@@ -373,6 +375,7 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     //international
     'BNXT League': bnxt,
     'Champions League': championsLeague,
+    'Champions League Americas': ChampionsLeagueAmericas,
     'Eurocup': euroCup,
     'Euroleague': euroLeague,
     'United League': united,
