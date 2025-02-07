@@ -59,6 +59,13 @@ import FirstDivisionB from '@/assets/tournaments/Football/Belgium/FirstDivisionB
 import SuperLeagueWomen from '@/assets/tournaments/Football/Belgium/SuperLeagueWomen.png';
 import U21ProLeague from '@/assets/tournaments/Football/Belgium/U21proLeague.png';
 
+/**      Greece       **/
+import SuperLeague1 from '@/assets/tournaments/Football/Greece/greeceSuperLeague1.png';
+import SuperLeague2 from '@/assets/tournaments/Football/Greece/greeceSuperLeague2.png';
+import GreeceCup from '@/assets/tournaments/Football/Greece/greekCup.png';
+import GSuperLeagueWomen from '@/assets/tournaments/Football/Greece/SuperLeagueWomen.png';
+import U19SuperLeague from '@/assets/tournaments/Football/Greece/U19SuperLeague.png';
+
 /**      International       **/
 import championsLeagueIcon from '@/assets/tournaments/Football/International/championsLeague.png';
 import copaLibertadores from '@/assets/tournaments/Football/International/copaLibertadores.png';
@@ -97,17 +104,19 @@ import proAGerman from '@/assets/tournaments/Basketball/Germany/proA.png';
 
 /**      Greece  **/
 import a1 from '@/assets/tournaments/Basketball/Greece/A1.png';
-
+import a2 from '@/assets/tournaments/Basketball/Greece/A2.png';
 /**      italy  **/
 import serieA from '@/assets/tournaments/Basketball/Italy/serieA.png';
 import serieA2 from '@/assets/tournaments/Basketball/Italy/serieA2.png';
 
 /**      spain  **/
 import ligaACB from '@/assets/tournaments/Basketball/Spain/ligaACB.png';
+import LEBOro from '@/assets/tournaments/Basketball/Spain/LEBOro.png';
 
 /**Turkey */
 import tbsl from '@/assets/tournaments/Basketball/Turkey/TBSL.png';
 import lig1 from '@/assets/tournaments/Basketball/Turkey/1.lig.png';
+import TB2L from '@/assets/tournaments/Basketball/Turkey/TB2L.png';
 
 /********** american football ******/
 import nfl from '@/assets/tournaments/NFL/USA/NFL.png';
@@ -197,6 +206,12 @@ export type TournamentName =
     | 'First Division B'
     | 'Super League Women'
     | 'U21 Pro League'
+    // greece
+    | 'Super League 1'
+    | 'Super League 2'
+    | 'Greece Cup'
+    | 'Super League, Women'
+    | 'U19 Super League'
 
     /**     basketball      */
     //international
@@ -222,14 +237,17 @@ export type TournamentName =
     | 'Pro A, germany'
     // Greece
     | 'A1'
+    | 'A2'
     // Italy
     | 'Serie A, basketball'
     | 'Serie A2'
     // Spain 
     | 'Liga ACB'
+    | 'LEB Oro'
     // Turkey
     | 'TBSL'
     | '1. Lig'
+    | 'TB2L'
 
     /**     american football     */
     //usa
@@ -240,20 +258,37 @@ export type TournamentName =
     | 'ATP Challenger Koblenz, Germany Men Singles'
     | 'ATP Challenger Koblenz, Germany Men Double'
     | 'ATP Challenger Lille, France Men Singles'
+    | 'ATP Challenger Lille, France Men Doubles'
+    | 'ATP Challenger Tenerife, Spain Men Singles'
+    | 'ATP Challenger Tenerife, Spain Men Doubles'
     | 'ATP Challenger Cleveland, USA Men Singles'
-    | 'ATP Challenger Piracicaba, Brazil Men Singles'
-    | 'ATP Challenger Brisbane, Australia Men Doubles'
     | 'ATP Challenger Cleveland, USA Men Doubles'
-    | 'ATP Challenger Brisbane, Australia Men Singles'
+    | 'ATP Challenger Piracicaba, Brazil Men Singles'
     | 'ATP Challenger Piracicaba, Brazil Men Doubles'
+    | 'ATP Challenger Brisbane, Australia Men Doubles'
+    | 'ATP Challenger Brisbane, Australia Men Singles'
+    | 'ATP Challenger Rosario, Argentina Men Singles'
+    | 'ATP Challenger Rosario, Argentina Men Doubles'
+    | 'ATP Challenger Chennai, India Men Double'
+    | 'ATP Challenger Chennai, India Men Singles'
+    | 'ATP Challenger Brisbane 2, Australia Men Singles'
+    | 'ATP Challenger Brisbane 2, Australia Men Doubles'
     // ATP
     | 'ATP Montpellier, France Men Singles'
     | 'ATP Montpellier, France Men Double'
+    | 'ATP Rotterdam, Netherlands Men Singles'
+    | 'ATP Rotterdam, Netherlands Men Doubles'
+    | 'ATP Dallas, USA Men Singles'
+    | 'ATP Dallas, USA Men Doubles'
     //WTA
     | 'WTA Linz, Austria Women Singles'
     | 'WTA Singapore, Singapore Women Singles'
     | 'WTA Singapore, Singapore Women Doubles'
     | 'WTA Linz, Austria Women Doubles'
+    | 'WTA Doha, Qatar Women Singles'
+    | 'WTA Cluj Napoca, Romania Women Singles'
+    | 'WTA Abu Dhabi, UAE Women Singles'
+    | 'WTA Cluj Napoca, Romania Women Doubles'
 
     /**     Table Tennis        */
     ;
@@ -321,11 +356,18 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'Segunda Liga': segundaLiga,
     'Liga Portugal 3': Liga3,
 
-     // belgium
-     'First Division A': FirstDivisionA,
-     'First Division B': FirstDivisionB,
-     'Super League Women': SuperLeagueWomen,
-     'U21 Pro League': U21ProLeague,
+    // greece
+    'Super League 1': SuperLeague1,
+    'Super League 2': SuperLeague2,
+    'Greece Cup': GreeceCup,
+    'Super League, Women': GSuperLeagueWomen,
+    'U19 Super League': U19SuperLeague,
+
+    // belgium
+    'First Division A': FirstDivisionA,
+    'First Division B': FirstDivisionB,
+    'Super League Women': SuperLeagueWomen,
+    'U21 Pro League': U21ProLeague,
 
     /******* BaksetBall **********/
     //international
@@ -351,14 +393,17 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'Pro A, germany': proAGerman,
     //greece
     'A1': a1,
+    'A2': a2,
     // italy
     'Serie A, basketball': serieA,
     'Serie A2': serieA2,
     //spain
     'Liga ACB': ligaACB,
+    'LEB Oro': LEBOro,
     //turkey
     'TBSL': tbsl,
     '1. Lig': lig1,
+    'TB2L': TB2L,
 
     /******* American football **********/
     'NFL': nfl,
@@ -368,20 +413,41 @@ export const TOURNAMENT_ICONS: Record<TournamentName, string> = {
     'ATP Challenger Koblenz, Germany Men Singles': challenger,
     'ATP Challenger Koblenz, Germany Men Double': challenger,
     'ATP Challenger Cleveland, USA Men Singles': challenger,
-    'ATP Challenger Piracicaba, Brazil Men Singles': challenger,
-    'ATP Challenger Brisbane, Australia Men Doubles': challenger,
     'ATP Challenger Cleveland, USA Men Doubles': challenger,
-    'ATP Challenger Lille, France Men Singles': challenger,
-    'ATP Challenger Brisbane, Australia Men Singles': challenger,
+    'ATP Challenger Piracicaba, Brazil Men Singles': challenger,
     'ATP Challenger Piracicaba, Brazil Men Doubles': challenger,
+    'ATP Challenger Brisbane, Australia Men Doubles': challenger,
+    'ATP Challenger Brisbane, Australia Men Singles': challenger,
+
+    'ATP Challenger Lille, France Men Singles': challenger,
+    'ATP Challenger Lille, France Men Doubles': challenger,
+
+    'ATP Challenger Tenerife, Spain Men Singles': challenger,
+    'ATP Challenger Tenerife, Spain Men Doubles': challenger,
+    'ATP Challenger Rosario, Argentina Men Singles': challenger,
+    'ATP Challenger Rosario, Argentina Men Doubles': challenger,
+
+    'ATP Challenger Chennai, India Men Double': challenger,
+    'ATP Challenger Chennai, India Men Singles': challenger,
+
+    'ATP Challenger Brisbane 2, Australia Men Singles': challenger,
+    'ATP Challenger Brisbane 2, Australia Men Doubles': challenger,
+
     // ATP
     'ATP Montpellier, France Men Singles': atp,
     'ATP Montpellier, France Men Double': atp,
+    'ATP Rotterdam, Netherlands Men Singles': atp,
+    'ATP Rotterdam, Netherlands Men Doubles': atp,
+    'ATP Dallas, USA Men Singles': atp,
+    'ATP Dallas, USA Men Doubles': atp,
     //wtp
     'WTA Linz, Austria Women Singles': wta,
     'WTA Singapore, Singapore Women Singles': wta,
     'WTA Singapore, Singapore Women Doubles': wta,
     'WTA Linz, Austria Women Doubles': wta,
-
+    'WTA Doha, Qatar Women Singles': wta,
+    'WTA Cluj Napoca, Romania Women Singles': wta,
+    'WTA Abu Dhabi, UAE Women Singles': wta,
+    'WTA Cluj Napoca, Romania Women Doubles': wta
     /********* Table tennis */
 } as const;
