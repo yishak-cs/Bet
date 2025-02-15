@@ -1,0 +1,292 @@
+[
+    {
+        "category_name": "Belgium",
+        "tournament_name": "Beker van Belgie, Women",
+        "tournament_id": "23795"
+    },
+    {
+        "category_name": "Belgium",
+        "tournament_name": "First Division A",
+        "tournament_id": "38"
+    },
+    {
+        "category_name": "Belgium",
+        "tournament_name": "First Division B",
+        "tournament_id": "9"
+    },
+    {
+        "category_name": "Belgium",
+        "tournament_name": "Nationale 1 ACFF",
+        "tournament_id": "43373"
+    },
+    {
+        "category_name": "Belgium",
+        "tournament_name": "Nationale 1 VV",
+        "tournament_id": "43371"
+    },
+    {
+        "category_name": "England",
+        "tournament_name": "Championship",
+        "tournament_id": "18"
+    },
+    {
+        "category_name": "England",
+        "tournament_name": "EFL Cup",
+        "tournament_id": "21"
+    },
+    {
+        "category_name": "England",
+        "tournament_name": "League One",
+        "tournament_id": "24"
+    },
+    {
+        "category_name": "England",
+        "tournament_name": "League Two",
+        "tournament_id": "25"
+    },
+    {
+        "category_name": "England",
+        "tournament_name": "National League",
+        "tournament_id": "173"
+    },
+    {
+        "category_name": "England",
+        "tournament_name": "Premier League",
+        "tournament_id": "17"
+    },
+    {
+        "category_name": "France",
+        "tournament_name": "Championnat National U19",
+        "tournament_id": "26276"
+    },
+    {
+        "category_name": "France",
+        "tournament_name": "Division 1 Women",
+        "tournament_id": "1139"
+    },
+    {
+        "category_name": "France",
+        "tournament_name": "Ligue 1",
+        "tournament_id": "34"
+    },
+    {
+        "category_name": "France",
+        "tournament_name": "Ligue 2",
+        "tournament_id": "182"
+    },
+    {
+        "category_name": "France",
+        "tournament_name": "National",
+        "tournament_id": "183"
+    },
+    {
+        "category_name": "Germany",
+        "tournament_name": "2nd Bundesliga",
+        "tournament_id": "44"
+    },
+    {
+        "category_name": "Germany",
+        "tournament_name": "3rd Liga",
+        "tournament_id": "491"
+    },
+    {
+        "category_name": "Germany",
+        "tournament_name": "Bundesliga",
+        "tournament_id": "35"
+    },
+    {
+        "category_name": "Germany",
+        "tournament_name": "DFB Pokal",
+        "tournament_id": "217"
+    },
+    {
+        "category_name": "Greece",
+        "tournament_name": "Greece Cup",
+        "tournament_id": "375"
+    },
+    {
+        "category_name": "Greece",
+        "tournament_name": "Super League 1",
+        "tournament_id": "185"
+    },
+    {
+        "category_name": "Greece",
+        "tournament_name": "Super League 2",
+        "tournament_id": "186"
+    },
+    {
+        "category_name": "Greece",
+        "tournament_name": "U19 Super League",
+        "tournament_id": "26384"
+    },
+    {
+        "category_name": "International Clubs",
+        "tournament_name": "Club Friendly Games",
+        "tournament_id": "853"
+    },
+    {
+        "category_name": "International Clubs",
+        "tournament_name": "Copa Libertadores",
+        "tournament_id": "384"
+    },
+    {
+        "category_name": "International Clubs",
+        "tournament_name": "Copa Sudamericana",
+        "tournament_id": "480"
+    },
+    {
+        "category_name": "International Clubs",
+        "tournament_name": "Recopa Sudamericana",
+        "tournament_id": "490"
+    },
+    {
+        "category_name": "International Clubs",
+        "tournament_name": "UEFA Champions League",
+        "tournament_id": "7"
+    },
+    {
+        "category_name": "International Clubs",
+        "tournament_name": "UEFA Europa Conference League",
+        "tournament_id": "34480"
+    },
+    {
+        "category_name": "International Clubs",
+        "tournament_name": "UEFA Europa League",
+        "tournament_id": "679"
+    },
+    {
+        "category_name": "Italy",
+        "tournament_name": "Campionato Primavera 1",
+        "tournament_id": "2340"
+    },
+    {
+        "category_name": "Italy",
+        "tournament_name": "Campionato Primavera 2",
+        "tournament_id": "19202"
+    },
+    {
+        "category_name": "Italy",
+        "tournament_name": "Coppa Italia",
+        "tournament_id": "328"
+    },
+    {
+        "category_name": "Italy",
+        "tournament_name": "Coppa Italia, Women",
+        "tournament_id": "28127"
+    },
+    {
+        "category_name": "Italy",
+        "tournament_name": "Serie A",
+        "tournament_id": "23"
+    },
+    {
+        "category_name": "Italy",
+        "tournament_name": "Serie B",
+        "tournament_id": "53"
+    },
+    {
+        "category_name": "Italy",
+        "tournament_name": "Serie C, Group A",
+        "tournament_id": "26554"
+    },
+    {
+        "category_name": "Italy",
+        "tournament_name": "Serie C, Group B",
+        "tournament_id": "26556"
+    },
+    {
+        "category_name": "Italy",
+        "tournament_name": "Serie C, Group C",
+        "tournament_id": "26558"
+    },
+    {
+        "category_name": "Italy",
+        "tournament_name": "Serie D, Girone F",
+        "tournament_id": "1384"
+    },
+    {
+        "category_name": "Italy",
+        "tournament_name": "Serie D, Girone G",
+        "tournament_id": "1386"
+    },
+    {
+        "category_name": "Netherlands",
+        "tournament_name": "Eerste Divisie",
+        "tournament_id": "131"
+    },
+    {
+        "category_name": "Netherlands",
+        "tournament_name": "Eredivisie",
+        "tournament_id": "37"
+    },
+    {
+        "category_name": "Netherlands",
+        "tournament_name": "KNVB beker",
+        "tournament_id": "330"
+    },
+    {
+        "category_name": "Netherlands",
+        "tournament_name": "KNVB beker, Women",
+        "tournament_id": "19268"
+    },
+    {
+        "category_name": "Netherlands",
+        "tournament_name": "Tweede Divisie",
+        "tournament_id": "26278"
+    },
+    {
+        "category_name": "Netherlands",
+        "tournament_name": "U21 KNVB, Divisie 1",
+        "tournament_id": "34990"
+    },
+    {
+        "category_name": "Portugal",
+        "tournament_name": "Campeonato de Portugal",
+        "tournament_id": "14758"
+    },
+    {
+        "category_name": "Portugal",
+        "tournament_name": "Liga Portugal 3",
+        "tournament_id": "34900"
+    },
+    {
+        "category_name": "Portugal",
+        "tournament_name": "Primeira Liga",
+        "tournament_id": "238"
+    },
+    {
+        "category_name": "Portugal",
+        "tournament_name": "Segunda Liga",
+        "tournament_id": "239"
+    },
+    {
+        "category_name": "Portugal",
+        "tournament_name": "U19 Championship",
+        "tournament_id": "1133"
+    },
+    {
+        "category_name": "Spain",
+        "tournament_name": "LaLiga",
+        "tournament_id": "8"
+    },
+    {
+        "category_name": "Spain",
+        "tournament_name": "LaLiga 2",
+        "tournament_id": "54"
+    },
+    {
+        "category_name": "Spain",
+        "tournament_name": "Primera Division RFEF",
+        "tournament_id": "34834"
+    },
+    {
+        "category_name": "Spain",
+        "tournament_name": "Primera Division Women",
+        "tournament_id": "1127"
+    },
+    {
+        "category_name": "Spain",
+        "tournament_name": "Second Division B",
+        "tournament_id": "544"
+    }
+]
