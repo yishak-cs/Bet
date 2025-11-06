@@ -102,6 +102,99 @@ import valencia from '@/assets/tournaments/Football/Spain/LaLigaTeams/valencia.p
 import vallencano from '@/assets/tournaments/Football/Spain/LaLigaTeams/Vallencano.png';
 import villarreal from '@/assets/tournaments/Football/Spain/LaLigaTeams/villarreal.png';
 
+/** Eredivisie (Netherlands) */
+import ado_den_haag from '@/assets/tournaments/Football/Netherlands/ereDivisie/ADO Den Haag Logo.png';
+import ajax_amsterdam from '@/assets/tournaments/Football/Netherlands/ereDivisie/Ajax Amsterdam Logo.png';
+import az_alkmaar from '@/assets/tournaments/Football/Netherlands/ereDivisie/AZ Alkmaar Logo.png';
+import de_graafschap from '@/assets/tournaments/Football/Netherlands/ereDivisie/De Graafschap Logo.png';
+import fc_dordrecht from '@/assets/tournaments/Football/Netherlands/ereDivisie/FC Dordrecht Logo.png';
+import fc_eindhoven from '@/assets/tournaments/Football/Netherlands/ereDivisie/FC Eindhoven Logo.png';
+import fc_groningen from '@/assets/tournaments/Football/Netherlands/ereDivisie/FC Groningen Logo.png';
+import fc_twente from '@/assets/tournaments/Football/Netherlands/ereDivisie/FC Twente Logo.png';
+import fc_utrecht from '@/assets/tournaments/Football/Netherlands/ereDivisie/FC Utrecht Logo.png';
+import feyenoord from '@/assets/tournaments/Football/Netherlands/ereDivisie/Feyenoord Logo.png';
+import go_ahead_eagles from '@/assets/tournaments/Football/Netherlands/ereDivisie/Go Ahead Eagles Logo.png';
+import heracles_almelo from '@/assets/tournaments/Football/Netherlands/ereDivisie/Heracles Almelo Logo.png';
+import nec_nijmegen from '@/assets/tournaments/Football/Netherlands/ereDivisie/N.E.C. Nijmegen Logo.png';
+import nac_breda from '@/assets/tournaments/Football/Netherlands/ereDivisie/NAC Breda Logo.png';
+import pec_zwolle from '@/assets/tournaments/Football/Netherlands/ereDivisie/PEC Zwolle Logo.png';
+import psv_eindhoven from '@/assets/tournaments/Football/Netherlands/ereDivisie/PSV Eindhoven Logo.png';
+import rkc_waalwijk from '@/assets/tournaments/Football/Netherlands/ereDivisie/RKC Waalwijk Logo.png';
+import roda_jc_kerkrade from '@/assets/tournaments/Football/Netherlands/ereDivisie/Roda JC Kerkrade Logo.png';
+import sbv_excelsior from '@/assets/tournaments/Football/Netherlands/ereDivisie/S.B.V. Excelsior Logo.png';
+import sc_cambuur from '@/assets/tournaments/Football/Netherlands/ereDivisie/SC Cambuur Logo.jpg';
+import sc_heerenveen from '@/assets/tournaments/Football/Netherlands/ereDivisie/SC Heerenveen Logo.png';
+import sparta_rotterdam from '@/assets/tournaments/Football/Netherlands/ereDivisie/Sparta Rotterdam Logo.png';
+import vitesse_arnhem from '@/assets/tournaments/Football/Netherlands/ereDivisie/Vitesse Arnhem Logo.png';
+import vvv_venlo from '@/assets/tournaments/Football/Netherlands/ereDivisie/VVV-Venlo Logo.png';
+import willem_ii from '@/assets/tournaments/Football/Netherlands/ereDivisie/Willem II Logo.png';
+
+/** Championship (England) */
+import birmingham_city from '@/assets/tournaments/Football/England/Championship/Birmingham City Logo.png';
+import blackburn_rovers from '@/assets/tournaments/Football/England/Championship/Blackburn Rovers Logo.png';
+import bristol_city from '@/assets/tournaments/Football/England/Championship/Bristol City Logo.png';
+import charlton_athletic from '@/assets/tournaments/Football/England/Championship/Charlton Athletic Logo.png';
+import coventry_city from '@/assets/tournaments/Football/England/Championship/Coventry City Logo.png';
+import derby_county from '@/assets/tournaments/Football/England/Championship/Derby County Logo.png';
+import hull_city from '@/assets/tournaments/Football/England/Championship/Hull City Logo.png';
+import ipswich_town from '@/assets/tournaments/Football/England/Championship/Ipswich Town Logo.png';
+import leicester_city from '@/assets/tournaments/Football/England/Championship/Leicester City Logo.png';
+import middlesbrough from '@/assets/tournaments/Football/England/Championship/Middlesbrough Logo.png';
+import millwall from '@/assets/tournaments/Football/England/Championship/Millwall Logo.png';
+import norwich_city from '@/assets/tournaments/Football/England/Championship/Norwich City Logo.png';
+import oxford_united from '@/assets/tournaments/Football/England/Championship/Oxford United Logo.png';
+import portsmouth from '@/assets/tournaments/Football/England/Championship/Portsmouth Logo.png';
+import preston_north_end from '@/assets/tournaments/Football/England/Championship/Preston North End Logo.png';
+import qpr from '@/assets/tournaments/Football/England/Championship/Queens Park Rangers Logo.png';
+import sheffield_united from '@/assets/tournaments/Football/England/Championship/Sheffield United Logo.png';
+import sheffield_wednesday from '@/assets/tournaments/Football/England/Championship/Sheffield Wednesday Logo.png';
+import southampton_fc from '@/assets/tournaments/Football/England/Championship/Southampton Logo.png';
+import stoke_city from '@/assets/tournaments/Football/England/Championship/Stoke City Logo.png';
+import swansea_city from '@/assets/tournaments/Football/England/Championship/Swansea City Logo.png';
+import watford from '@/assets/tournaments/Football/England/Championship/Watford Logo.png';
+import west_brom from '@/assets/tournaments/Football/England/Championship/West Bromwich Albion Logo.png';
+import wrexham from '@/assets/tournaments/Football/England/Championship/Wrexham Logo.png';
+
+/** 2. Bundesliga (Germany) */
+import eintracht_braunschweig from '@/assets/tournaments/Football/Germany/2_Bundesliga/Eintracht Braunschweig Logo.png';
+import hertha_bsc from '@/assets/tournaments/Football/Germany/2_Bundesliga/Hertha BSC Logo.png';
+import darmstadt_98 from '@/assets/tournaments/Football/Germany/2_Bundesliga/Darmstadt 98 Logo.png';
+import fortuna_duesseldorf from '@/assets/tournaments/Football/Germany/2_Bundesliga/Fortuna Düsseldorf Logo.png';
+import sv_elversberg from '@/assets/tournaments/Football/Germany/2_Bundesliga/SV Elversberg Logo.png';
+import greuther_fuerth from '@/assets/tournaments/Football/Germany/2_Bundesliga/Greuther Fürth Logo.png';
+import hamburger_sv from '@/assets/tournaments/Football/Germany/2_Bundesliga/Hamburger SV Logo.png';
+import hannover_96 from '@/assets/tournaments/Football/Germany/2_Bundesliga/Hannover 96 Logo.png';
+import kaiserslautern from '@/assets/tournaments/Football/Germany/2_Bundesliga/1. FC Kaiserslautern Logo.png';
+import karlsruher_sc from '@/assets/tournaments/Football/Germany/2_Bundesliga/Karlsruher SC Logo.png';
+import fc_koeln from '@/assets/tournaments/Football/Germany/2_Bundesliga/1. FC Köln Logo.png';
+import fc_magdeburg from '@/assets/tournaments/Football/Germany/2_Bundesliga/1. FC Magdeburg Logo.png';
+import preussen_muenster from '@/assets/tournaments/Football/Germany/2_Bundesliga/Preußen Münster Logo.png';
+import fc_nuernberg from '@/assets/tournaments/Football/Germany/2_Bundesliga/1. FC Nürnberg Logo.png';
+import sc_paderborn from '@/assets/tournaments/Football/Germany/2_Bundesliga/SC Paderborn Logo.png';
+import jahn_regensburg from '@/assets/tournaments/Football/Germany/2_Bundesliga/Jahn Regensburg Logo.png';
+import schalke_04 from '@/assets/tournaments/Football/Germany/2_Bundesliga/Schalke 04 Logo.png';
+import ssv_ulm from '@/assets/tournaments/Football/Germany/2_Bundesliga/SSV Ulm Logo.png';
+
+/** Ligue 2 (France) */
+import amiens from '@/assets/tournaments/Football/France/Ligue_2/Amiens Logo.png';
+import annecy from '@/assets/tournaments/Football/France/Ligue_2/Annecy Logo.png';
+import bastia from '@/assets/tournaments/Football/France/Ligue_2/Bastia Logo.png';
+import boulogne from '@/assets/tournaments/Football/France/Ligue_2/Boulogne Logo.png';
+import clermont from '@/assets/tournaments/Football/France/Ligue_2/Clermont Logo.png';
+import dunkerque from '@/assets/tournaments/Football/France/Ligue_2/Dunkerque Logo.png';
+import grenoble from '@/assets/tournaments/Football/France/Ligue_2/Grenoble Logo.png';
+import guingamp from '@/assets/tournaments/Football/France/Ligue_2/Guingamp Logo.png';
+import laval from '@/assets/tournaments/Football/France/Ligue_2/Laval Logo.png';
+import le_mans from '@/assets/tournaments/Football/France/Ligue_2/Le Mans FC Logo.png';
+import montpellier_l2 from '@/assets/tournaments/Football/France/Ligue_2/Montpellier Logo.png';
+import nancy from '@/assets/tournaments/Football/France/Ligue_2/Nancy Logo.png';
+import pau from '@/assets/tournaments/Football/France/Ligue_2/Pau Logo.png';
+import red_star from '@/assets/tournaments/Football/France/Ligue_2/Red Star Logo.png';
+import reims_l2 from '@/assets/tournaments/Football/France/Ligue_2/Reims Logo.png';
+import rodez from '@/assets/tournaments/Football/France/Ligue_2/Rodez Logo.png';
+import saint_etienne_l2 from '@/assets/tournaments/Football/France/Ligue_2/Saint-Étienne Logo.png';
+import troyes from '@/assets/tournaments/Football/France/Ligue_2/Troyes Logo.png';
+
 export type TeamName =
     //premier league
     'AFC Bournemouth' |
@@ -202,7 +295,102 @@ export type TeamName =
     'Sevilla FC' |
     'Valencia CF' |
     'Rayo Vallencano' |
-    'Villarreal CF';
+    'Villarreal CF' |
+
+    // Eredivisie (Netherlands)
+    'ADO Den Haag' |
+    'Ajax Amsterdam' |
+    'AZ Alkmaar' |
+    'De Graafschap' |
+    'FC Dordrecht' |
+    'FC Eindhoven' |
+    'FC Groningen' |
+    'FC Twente' |
+    'FC Utrecht' |
+    'Feyenoord' |
+    'Go Ahead Eagles' |
+    'Heracles Almelo' |
+    'N.E.C. Nijmegen' |
+    'NAC Breda' |
+    'PEC Zwolle' |
+    'PSV Eindhoven' |
+    'RKC Waalwijk' |
+    'Roda JC Kerkrade' |
+    'S.B.V. Excelsior' |
+    'SC Cambuur' |
+    'SC Heerenveen' |
+    'Sparta Rotterdam' |
+    'Vitesse Arnhem' |
+    'VVV-Venlo' |
+    'Willem II' |
+
+    // Championship (England)
+    'Birmingham City' |
+    'Blackburn Rovers' |
+    'Bristol City' |
+    'Charlton Athletic' |
+    'Coventry City' |
+    'Derby County' |
+    'Hull City' |
+    'Ipswich Town' |
+    'Leicester City' |
+    'Middlesbrough' |
+    'Millwall' |
+    'Norwich City' |
+    'Oxford United' |
+    'Portsmouth' |
+    'Preston North End' |
+    'Queens Park Rangers' |
+    'Sheffield United' |
+    'Sheffield Wednesday' |
+    'Southampton' |
+    'Stoke City' |
+    'Swansea City' |
+    'Watford' |
+    'West Bromwich Albion' |
+    'Wrexham' |
+
+    // 2. Bundesliga (Germany)
+    'Eintracht Braunschweig' |
+    'Hertha BSC' |
+    'Darmstadt 98' |
+    'Fortuna Düsseldorf' |
+    'SV Elversberg' |
+    'Greuther Fürth' |
+    'Hamburger SV' |
+    'Hannover 96' |
+    '1. FC Kaiserslautern' |
+    'Karlsruher SC' |
+    '1. FC Köln' |
+    '1. FC Magdeburg' |
+    'Preußen Münster' |
+    '1. FC Nürnberg' |
+    'SC Paderborn' |
+    'Jahn Regensburg' |
+    'Schalke 04' |
+    'SSV Ulm' |
+
+    // Ligue 2 (France)
+    'Amiens' |
+    'Annecy' |
+    'Bastia' |
+    'Boulogne' |
+    'Clermont' |
+    'Dunkerque' |
+    'Grenoble' |
+    'Guingamp' |
+    'Laval' |
+    'Le Mans FC' |
+    'Montpellier' |
+    'Nancy' |
+    'Pau' |
+    'Red Star' |
+    'Reims' |
+    'Rodez' |
+    'Saint-Étienne' |
+    'Troyes'
+    ;
+;
 
 export const TEAM_ICONS: Record<TeamName, string> = {
     // Premier League
@@ -310,5 +498,106 @@ export const TEAM_ICONS: Record<TeamName, string> = {
     'Rayo Vallencano': vallencano,
     'Villarreal CF': villarreal
 } as const;
+
+// Eredivisie (Netherlands)
+Object.assign(TEAM_ICONS, {
+    'ADO Den Haag': ado_den_haag,
+    'Ajax Amsterdam': ajax_amsterdam,
+    'AZ Alkmaar': az_alkmaar,
+    'De Graafschap': de_graafschap,
+    'FC Dordrecht': fc_dordrecht,
+    'FC Eindhoven': fc_eindhoven,
+    'FC Groningen': fc_groningen,
+    'FC Twente': fc_twente,
+    'FC Utrecht': fc_utrecht,
+    'Feyenoord': feyenoord,
+    'Go Ahead Eagles': go_ahead_eagles,
+    'Heracles Almelo': heracles_almelo,
+    'N.E.C. Nijmegen': nec_nijmegen,
+    'NAC Breda': nac_breda,
+    'PEC Zwolle': pec_zwolle,
+    'PSV Eindhoven': psv_eindhoven,
+    'RKC Waalwijk': rkc_waalwijk,
+    'Roda JC Kerkrade': roda_jc_kerkrade,
+    'S.B.V. Excelsior': sbv_excelsior,
+    'SC Cambuur': sc_cambuur,
+    'SC Heerenveen': sc_heerenveen,
+    'Sparta Rotterdam': sparta_rotterdam,
+    'Vitesse Arnhem': vitesse_arnhem,
+    'VVV-Venlo': vvv_venlo,
+    'Willem II': willem_ii,
+});
+
+// Championship (England)
+Object.assign(TEAM_ICONS, {
+    'Birmingham City': birmingham_city,
+    'Blackburn Rovers': blackburn_rovers,
+    'Bristol City': bristol_city,
+    'Charlton Athletic': charlton_athletic,
+    'Coventry City': coventry_city,
+    'Derby County': derby_county,
+    'Hull City': hull_city,
+    'Ipswich Town': ipswich_town,
+    'Leicester City': leicester_city,
+    'Middlesbrough': middlesbrough,
+    'Millwall': millwall,
+    'Norwich City': norwich_city,
+    'Oxford United': oxford_united,
+    'Portsmouth': portsmouth,
+    'Preston North End': preston_north_end,
+    'Queens Park Rangers': qpr,
+    'Sheffield United': sheffield_united,
+    'Sheffield Wednesday': sheffield_wednesday,
+    'Southampton': southampton_fc,
+    'Stoke City': stoke_city,
+    'Swansea City': swansea_city,
+    'Watford': watford,
+    'West Bromwich Albion': west_brom,
+    'Wrexham': wrexham,
+});
+
+// 2. Bundesliga (Germany)
+Object.assign(TEAM_ICONS, {
+    'Eintracht Braunschweig': eintracht_braunschweig,
+    'Hertha BSC': hertha_bsc,
+    'Darmstadt 98': darmstadt_98,
+    'Fortuna Düsseldorf': fortuna_duesseldorf,
+    'SV Elversberg': sv_elversberg,
+    'Greuther Fürth': greuther_fuerth,
+    'Hamburger SV': hamburger_sv,
+    'Hannover 96': hannover_96,
+    '1. FC Kaiserslautern': kaiserslautern,
+    'Karlsruher SC': karlsruher_sc,
+    '1. FC Köln': fc_koeln,
+    '1. FC Magdeburg': fc_magdeburg,
+    'Preußen Münster': preussen_muenster,
+    '1. FC Nürnberg': fc_nuernberg,
+    'SC Paderborn': sc_paderborn,
+    'Jahn Regensburg': jahn_regensburg,
+    'Schalke 04': schalke_04,
+    'SSV Ulm': ssv_ulm,
+});
+
+// Ligue 2 (France)
+Object.assign(TEAM_ICONS, {
+    'Amiens': amiens,
+    'Annecy': annecy,
+    'Bastia': bastia,
+    'Boulogne': boulogne,
+    'Clermont': clermont,
+    'Dunkerque': dunkerque,
+    'Grenoble': grenoble,
+    'Guingamp': guingamp,
+    'Laval': laval,
+    'Le Mans FC': le_mans,
+    'Montpellier': montpellier_l2,
+    'Nancy': nancy,
+    'Pau': pau,
+    'Red Star': red_star,
+    'Reims': reims_l2,
+    'Rodez': rodez,
+    'Saint-Étienne': saint_etienne_l2,
+    'Troyes': troyes,
+});
 
 
