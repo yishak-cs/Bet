@@ -195,6 +195,52 @@ import rodez from '@/assets/tournaments/Football/France/Ligue_2/Rodez Logo.png';
 import saint_etienne_l2 from '@/assets/tournaments/Football/France/Ligue_2/Saint-Étienne Logo.png';
 import troyes from '@/assets/tournaments/Football/France/Ligue_2/Troyes Logo.png';
 
+/** Serie B (Italy) */
+import bari from '@/assets/tournaments/Football/Italy/SerieB/Bari Logo.png';
+import brescia from '@/assets/tournaments/Football/Italy/SerieB/Brescia Logo.png';
+import carrarese from '@/assets/tournaments/Football/Italy/SerieB/Carrarese Logo.png';
+import catanzaro from '@/assets/tournaments/Football/Italy/SerieB/Catanzaro Logo.png';
+import cesena from '@/assets/tournaments/Football/Italy/SerieB/Cesena Logo.png';
+import cittadella from '@/assets/tournaments/Football/Italy/SerieB/Cittadella Logo.png';
+import cosenza from '@/assets/tournaments/Football/Italy/SerieB/Cosenza Logo.png';
+import cremonese from '@/assets/tournaments/Football/Italy/SerieB/Cremonese Logo.png';
+import frosinone from '@/assets/tournaments/Football/Italy/SerieB/Frosinone Logo.png';
+import juve_stabia from '@/assets/tournaments/Football/Italy/SerieB/Juve Stabia Logo.png';
+import mantova from '@/assets/tournaments/Football/Italy/SerieB/Mantova Logo.png';
+import modena from '@/assets/tournaments/Football/Italy/SerieB/Modena Logo.png';
+import palermo from '@/assets/tournaments/Football/Italy/SerieB/Palermo Logo.png';
+import pisa from '@/assets/tournaments/Football/Italy/SerieB/Pisa Logo.png';
+import reggiana from '@/assets/tournaments/Football/Italy/SerieB/Reggiana Logo.png';
+import salernitana from '@/assets/tournaments/Football/Italy/SerieB/Salernitana Logo.png';
+import sampdoria from '@/assets/tournaments/Football/Italy/SerieB/Sampdoria Logo.png';
+import sassuolo from '@/assets/tournaments/Football/Italy/SerieB/Sassuolo Logo.png';
+import spezia from '@/assets/tournaments/Football/Italy/SerieB/Spezia Logo.png';
+import suedtirol from '@/assets/tournaments/Football/Italy/SerieB/Südtirol Logo.png';
+
+/** LaLiga 2 (Spain) */
+import albacete from '@/assets/tournaments/Football/Spain/LaLiga_2/Albacete Logo.png';
+import almeria from '@/assets/tournaments/Football/Spain/LaLiga_2/Almería Logo.png';
+import burgos from '@/assets/tournaments/Football/Spain/LaLiga_2/Burgos Logo.png';
+import cadiz from '@/assets/tournaments/Football/Spain/LaLiga_2/Cádiz Logo.png';
+import cartagena from '@/assets/tournaments/Football/Spain/LaLiga_2/Cartagena Logo.png';
+import castellon from '@/assets/tournaments/Football/Spain/LaLiga_2/Castellón Logo.png';
+import cordoba from '@/assets/tournaments/Football/Spain/LaLiga_2/Córdoba Logo.png';
+import deportivo from '@/assets/tournaments/Football/Spain/LaLiga_2/Deportivo La Coruña Logo.png';
+import eibar from '@/assets/tournaments/Football/Spain/LaLiga_2/Eibar Logo.png';
+import elche from '@/assets/tournaments/Football/Spain/LaLiga_2/Elche Logo.png';
+import eldense from '@/assets/tournaments/Football/Spain/LaLiga_2/Eldense Logo.png';
+import granada from '@/assets/tournaments/Football/Spain/LaLiga_2/Granada Logo.png';
+import huesca from '@/assets/tournaments/Football/Spain/LaLiga_2/Huesca Logo.png';
+import levante from '@/assets/tournaments/Football/Spain/LaLiga_2/Levante Logo.png';
+import malaga from '@/assets/tournaments/Football/Spain/LaLiga_2/Málaga Logo.png';
+import mirandes from '@/assets/tournaments/Football/Spain/LaLiga_2/Mirandés Logo.png';
+import oviedo from '@/assets/tournaments/Football/Spain/LaLiga_2/Oviedo Logo.png';
+import racing_ferrol from '@/assets/tournaments/Football/Spain/LaLiga_2/Racing Ferrol Logo.png';
+import racing_santander from '@/assets/tournaments/Football/Spain/LaLiga_2/Racing Santander Logo.png';
+import sporting_gijon from '@/assets/tournaments/Football/Spain/LaLiga_2/Sporting Gijón Logo.png';
+import tenerife from '@/assets/tournaments/Football/Spain/LaLiga_2/Tenerife Logo.png';
+import zaragoza from '@/assets/tournaments/Football/Spain/LaLiga_2/Zaragoza Logo.png';
+
 export type TeamName =
     //premier league
     'AFC Bournemouth' |
@@ -388,7 +434,53 @@ export type TeamName =
     'Reims' |
     'Rodez' |
     'Saint-Étienne' |
-    'Troyes'
+    'Troyes' |
+
+    // Serie B (Italy)
+    'Bari' |
+    'Brescia' |
+    'Carrarese' |
+    'Catanzaro' |
+    'Cesena' |
+    'Cittadella' |
+    'Cosenza' |
+    'Cremonese' |
+    'Frosinone' |
+    'Juve Stabia' |
+    'Mantova' |
+    'Modena' |
+    'Palermo' |
+    'Pisa' |
+    'Reggiana' |
+    'Salernitana' |
+    'Sampdoria' |
+    'Sassuolo' |
+    'Spezia' |
+    'Südtirol' |
+
+    // LaLiga 2 (Spain)
+    'Albacete' |
+    'Almería' |
+    'Burgos' |
+    'Cádiz' |
+    'Cartagena' |
+    'Castellón' |
+    'Córdoba' |
+    'Deportivo La Coruña' |
+    'Eibar' |
+    'Elche' |
+    'Eldense' |
+    'Granada' |
+    'Huesca' |
+    'Levante' |
+    'Málaga' |
+    'Mirandés' |
+    'Oviedo' |
+    'Racing Ferrol' |
+    'Racing Santander' |
+    'Sporting Gijón' |
+    'Tenerife' |
+    'Zaragoza'
     ;
 ;
 
@@ -598,6 +690,56 @@ Object.assign(TEAM_ICONS, {
     'Rodez': rodez,
     'Saint-Étienne': saint_etienne_l2,
     'Troyes': troyes,
+});
+
+// Serie B (Italy)
+Object.assign(TEAM_ICONS, {
+    'Bari': bari,
+    'Brescia': brescia,
+    'Carrarese': carrarese,
+    'Catanzaro': catanzaro,
+    'Cesena': cesena,
+    'Cittadella': cittadella,
+    'Cosenza': cosenza,
+    'Cremonese': cremonese,
+    'Frosinone': frosinone,
+    'Juve Stabia': juve_stabia,
+    'Mantova': mantova,
+    'Modena': modena,
+    'Palermo': palermo,
+    'Pisa': pisa,
+    'Reggiana': reggiana,
+    'Salernitana': salernitana,
+    'Sampdoria': sampdoria,
+    'Sassuolo': sassuolo,
+    'Spezia': spezia,
+    'Südtirol': suedtirol,
+});
+
+// LaLiga 2 (Spain)
+Object.assign(TEAM_ICONS, {
+    'Albacete': albacete,
+    'Almería': almeria,
+    'Burgos': burgos,
+    'Cádiz': cadiz,
+    'Cartagena': cartagena,
+    'Castellón': castellon,
+    'Córdoba': cordoba,
+    'Deportivo La Coruña': deportivo,
+    'Eibar': eibar,
+    'Elche': elche,
+    'Eldense': eldense,
+    'Granada': granada,
+    'Huesca': huesca,
+    'Levante': levante,
+    'Málaga': malaga,
+    'Mirandés': mirandes,
+    'Oviedo': oviedo,
+    'Racing Ferrol': racing_ferrol,
+    'Racing Santander': racing_santander,
+    'Sporting Gijón': sporting_gijon,
+    'Tenerife': tenerife,
+    'Zaragoza': zaragoza,
 });
 
 
